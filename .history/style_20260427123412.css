@@ -1,0 +1,180 @@
+/* Reset Dasar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header & Banner */
+header {
+    background: linear-gradient(to right, #46abc9, #56c2e1);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.icon-group {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* GAYA UNTUK GAMBAR PERANGKAT (IMG) */
+.img-monitor {
+    height: 140px; /* Atur tinggi monitor */
+    width: auto;
+}
+
+.img-tablet {
+    height: 90px; /* Atur tinggi tablet */
+    width: auto;
+    margin-left: -30px; /* Tumpukan sedikit di atas monitor */
+    margin-bottom: 5px;
+    position: relative; /* Pastikan tumpukan benar */
+    z-index: 1;
+}
+
+.img-phone {
+    height: 60px; /* Atur tinggi ponsel */
+    width: auto;
+    margin-left: -15px; /* Tumpukan sedikit di atas tablet */
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.html-label {
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+    background: white;
+    color: #f39c12;
+    padding: 2px 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 18px;
+    z-index: 3; /* Pastikan label berada di paling atas */
+}
+
+.header-text {
+    text-align: right;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #f39c12; /* Oranye */
+}
+
+.header-text h2 {
+    margin: 0;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* Navigasi */
+nav {
+    background-color: #b0b0b0;
+    padding: 12px 0;
+}
+
+.nav-links {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+/* Layout Konten */
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: white;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #a0d8d8; /* Warna toska */
+    padding: 25px;
+}
+
+.content {
+    flex: 2;
+    padding: 50px;
+}
+
+/* Biodata */
+.profile-box {
+    background-color: #d1f2eb;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    margin-bottom: 15px;
+    overflow: hidden; /* Pastikan gambar tidak keluar dari kotak */
+}
+
+/* GAYA UNTUK GAMBAR BONEKA SALJU (IMG) */
+.img-snowman {
+    width: 100%; /* Penuhi lebar kotak */
+    height: 100%; /* Penuhi tinggi kotak */
+    object-fit: cover; /* Pastikan gambar proporsional memenuhi kotak */
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #a0d8d8;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: #b0b0b0;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #333;
+}

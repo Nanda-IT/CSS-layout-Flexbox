@@ -1,0 +1,174 @@
+       /* Gaya CSS Global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #e9e9e9; /* Warna abu-abu background utama */
+        }
+
+        /* Gaya Bagian Header/Banner */
+        header {
+            background-color: #33b5e5; /* Biru langit cerah */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px; /* Jarak antara grup ikon dan teks */
+        }
+
+        /* Grup Ikon Perangkat (Kiri) */
+        .icon-group {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            gap: 10px;
+        }
+
+        /* Ikon Monitor */
+        .monitor-icon {
+            font-size: 150px;
+            line-height: 1;
+            margin-right: -20px; /* Tumpukan sedikit */
+        }
+
+        /* Ikon Tablet */
+        .tablet-icon {
+            font-size: 80px;
+            line-height: 1;
+            margin-bottom: 10px; /* Sedikit ke atas dari dasar */
+        }
+
+        /* Ikon Ponsel */
+        .phone-icon {
+            font-size: 50px;
+            line-height: 1;
+            margin-bottom: 25px; /* Lebih tinggi dari tablet */
+        }
+
+        /* Label 'HTML://' */
+        .html-label {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Courier New', Courier, monospace; /* Font monospace untuk kode */
+            font-weight: bold;
+            font-size: 16px;
+            background: #fff;
+            color: #ffaa00; /* Warna oranye */
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        /* Teks Judul Banner (Kanan) */
+        .header-text {
+            text-align: right;
+            text-transform: uppercase;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #ffaa00; /* Oranye untuk 'WEB' */
+            font-weight: bold;
+        }
+
+        .header-text h2 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: normal;
+        }
+
+        /* Gaya Navigasi */
+        nav {
+            background-color: #cccccc; /* Abu-abu terang */
+            padding: 10px 20px;
+            text-align: right;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Gaya Konten Utama (Biodata & Pengalaman) */
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+
+        /* Gaya Bagian Kiri (Biodata) */
+        .biodata {
+            flex: 1; /* Mengambil ruang proporsional */
+            background-color: #afeeee; /* Warna turkis pucat */
+            padding: 20px;
+        }
+
+        .biodata h3 {
+            margin-top: 0;
+        }
+
+        /* Gaya Gambar Boneka Salju */
+        .snowman-image {
+            width: 150px;
+            height: 150px;
+            background-color: #d1f7ff; /* Latar belakang gambar cerah */
+            border: 2px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 80px; /* Ukuran emoji besar */
+            margin-bottom: 15px;
+        }
+
+        .biodata-text {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        /* Gaya Bagian Kanan (Pengalaman) */
+        .experience {
+            flex: 2; /* Mengambil ruang dua kali lipat biodata */
+            padding: 20px;
+        }
+
+        .experience h3 {
+            margin-top: 0;
+        }
+
+        /* Gaya Tabel Pengalaman Kerja */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border: 1px solid #dddddd;
+        }
+
+        th {
+            background-color: #afeeee; /* Menyamakan warna header tabel dengan biodata */
+        }
+
+        /* Gaya Footer */
+        footer {
+            background-color: #cccccc;
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 12px;
+            margin-top: 20px;
+        }
