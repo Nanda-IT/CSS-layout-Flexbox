@@ -19,4 +19,4 @@ Proyek ini adalah implementasi desain web sederhana menggunakan **HTML5** dan **
 ├── index.html          # File utama struktur web
 ├── style.css           # File styling CSS
 ├── header-banner.png   # Gambar untuk bagian header
-└── snowman.jpg         # Gambar profil untuk bagian biodata
+└── bahlil.jpg         # Gambar profil untuk bagian biodata
